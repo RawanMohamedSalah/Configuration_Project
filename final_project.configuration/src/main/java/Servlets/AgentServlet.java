@@ -27,7 +27,7 @@ public class AgentServlet extends HttpServlet {
     @Override
     public void init() {
         // Retrieve or construct DatabaseConfig with appropriate credentials
-        DatabaseConfig config = new DatabaseConfig("jdbc:mysql://localhost:3306/Final_project", "root", "rdmm..rdmm123");
+        DatabaseConfig config = new DatabaseConfig("jdbc:mysql://localhost:3306/final_project.configuration", "root", "PoPo2222@.com");
         DatabaseConnection dbConnection = new MySqlDatabaseConnection(config);
         agentDao = new AgentDaoImpl(dbConnection);
     }

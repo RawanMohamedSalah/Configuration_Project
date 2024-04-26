@@ -42,7 +42,7 @@ public class AgentDaoImpl implements AgentDao {
     }
 
 	@Override
-	public List<Agent> getAllBooks() throws Exception {
+	List<Agent> getAllAgent() throws Exception{
 		// TODO Auto-generated method stub
 		return null;
 	}

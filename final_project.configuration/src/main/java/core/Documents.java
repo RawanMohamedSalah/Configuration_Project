@@ -1,6 +1,6 @@
 package core;
 
-public abstract class Documents implements Cloneable{
+public abstract class Documents  implements Cloneable{
 	protected String name;
     protected String description;
     protected String imageUrl;

@@ -1,38 +1,56 @@
 package Servlets;
+
 import java.io.IOException;
-import java.io.PrintWriter;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.sql.SQLException;
+import java.util.List;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import core.Category;
+import core.CategoryDao;
+import core.CategoryDaoImpl;
+import database.DatabaseConnection;
+import database.DataAccessException;
+import database.DatabaseConfig;
+import database.MySqlDatabaseConnection;
 
 @WebServlet("/categories")
 public class CategoryServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
+    private CategoryDao categoryDao;
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        // Implement logic to retrieve categories from the database
-        // For demonstration, I'll just return a sample JSON response
-
-        response.setContentType("application/json");
-        PrintWriter out = response.getWriter();
-        out.println("[{\"categoryId\":1,\"categoryName\":\"Category A\"}]");
+    @Override
+    public void init() {
+        // Retrieve or construct DatabaseConfig with appropriate credentials
+        DatabaseConfig config = new DatabaseConfig("jdbc:mysql://localhost:3306/final_project.configuration", "root", "PoPo2222@.com");        DatabaseConnection dbConnection = new MySqlDatabaseConnection(config);
+        categoryDao = new CategoryDaoImpl(dbConnection);
     }
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        // Implement logic to create a new category in the database
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        try {
+            List<Category> categories = categoryDao.getAllCategories();
+            request.setAttribute("categories", categories);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("Category.jsp");
+            dispatcher.forward(request, response);
+        } catch (Exception e) {
+            // Log the exception
+            e.printStackTrace();
+            // Set an error message
+            request.setAttribute("errorMessage", "Unexpected error occurred");
+            // Add a redirect to the JSP page
+            response.sendRedirect("Category.jsp");
+        }
     }
 
-    protected void doPut(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        // Implement logic to update an existing category in the database
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doGet(request, response);
     }
 
-    protected void doDelete(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        // Implement logic to delete an existing category from the database
-    }
 }
