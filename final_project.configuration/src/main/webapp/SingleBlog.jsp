@@ -1747,7 +1747,7 @@ img {
                 </div>
                 <div class="phone-number d-flex">
                     <div class="icon">
-                        <img src="img/icons/phone-call.png" alt="">
+                        <img src="images/icons/phone-call.png" alt="">
                     </div>
                     <div class="number">
                         <a href="tel:+45 677 8993000 223">+45 677 8993000 223</a>
@@ -1763,7 +1763,7 @@ img {
                 <nav class="classy-navbar justify-content-between" id="southNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="Index.jsp"><img src="images/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -1781,30 +1781,30 @@ img {
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Index.jsp">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="Index.jsp">Home</a></li>
+                                        <li><a href="AboutUs.jsp">About Us</a></li>
                                         <li><a href="#">Listings</a>
                                             <ul class="dropdown">
-                                                <li><a href="listings.html">Listings</a></li>
-                                                <li><a href="single-listings.html">Single Listings</a></li>
+                                                <li><a href="listing.jsp">Listings</a></li>
+                                                <li><a href="Singlelistings.jsp">Single Listings</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Blog</a>
                                             <ul class="dropdown">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Single Blog</a></li>
+                                                <li><a href="Blog.jsp">Blog</a></li>
+                                                <li><a href="SingleBlog.jsp">Single Blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="elements.html">Elements</a></li>
+                                        <li><a href="ContactUs.jsp">Contact</a></li>
+                                        <li><a href="Elements.jsp">Elements</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="listings.html">Properties</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="AboutUs.jsp">About Us</a></li>
+                                <li><a href="listing.jsp">Properties</a></li>
+                                <li><a href="Blog.jsp">Blog</a></li>
                                 <li><a href="#">Mega Menu</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
@@ -1841,7 +1841,7 @@ img {
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="ContactUs.jsp">Contact</a></li>
                             </ul>
 
                             <!-- Search Form -->
@@ -1886,7 +1886,7 @@ img {
                     <div class="single-blog-area">
                         <!-- Post Thumbnail -->
                         <div class="blog-post-thumbnail">
-                            <img src="img/blog-img/blog3.jpg" alt="">
+                            <img src="images/blog-img/blog3.jpg" alt="">
                         </div>
                         <!-- Post Content -->
                         <div class="post-content">
@@ -1901,7 +1901,7 @@ img {
                                 <p>By <a href="#">Admin</a> | in <a href="#">Uncategorized</a> | <a href="#">2 Comments</a></p>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quia dolore debitis tenetur laborum neque deleniti quis atque autem, qui blanditiis, ad aspernatur? Consequatur nemo, eveniet blanditiis asperiores ex magni sit libero sint fugiat quibusdam ab eius aperiam, iure facilis neque dolore earum architecto tempore et, quae? Omnis ex suscipit debitis, obcaecati delectus est ab voluptate distinctio voluptas. Deserunt saepe sunt ullam, animi sed vel error consectetur incidunt. Ipsa facere eveniet natus quos ratione, minus quod cum ex, laboriosam eius impedit cupiditate? Dolore, voluptates reiciendis quis incidunt ducimus cumque placeat, similique nostrum quod enim quidem culpa. Facere veniam cum accusantium cumque, explicabo nesciunt repellat unde, quibusdam adipisci error quasi natus, pariatur perspiciatis odit labore eos incidunt? Quidem doloremque atque nisi ea optio odio aspernatur est eius!</p>
-                            <img class="mb-50" src="img/bg-img/hero3.jpg" alt="">
+                            <img class="mb-50" src="images/bg-img/hero3.jpg" alt="">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia minus in recusandae cumque, laboriosam mollitia inventore nisi autem maiores nostrum ipsa labore beatae amet, dolore ex error fugit sunt aspernatur quidem. Sed laboriosam nihil consectetur facilis aliquid labore necessitatibus nemo dolore? Perspiciatis corrupti consectetur, doloribus aliquid voluptatibus ab atque inventore, est voluptates. Eum veniam hic velit, quia voluptates? Numquam aliquam accusantium hic iste, sequi nisi maiores minus iure eos est unde eum dolore amet suscipit?</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus accusantium nisi quas tempore quod placeat soluta, quam, ex, pariatur doloremque, quasi ut vitae aspernatur quisquam dolores consequatur deleniti sed perferendis consequuntur. Aut quod, dolorum molestiae veritatis molestias, nemo sit, voluptatibus, quaerat cupiditate magni dignissimos minus repellendus labore.</p>
                         </div>
@@ -1915,7 +1915,7 @@ img {
                                 <div class="comment-wrapper d-flex">
                                     <!-- Comment Meta -->
                                     <div class="comment-author">
-                                        <img src="img/blog-img/c-1.jpg" alt="">
+                                        <img src="images/blog-img/c-1.jpg" alt="">
                                     </div>
                                     <!-- Comment Content -->
                                     <div class="comment-content">
@@ -1932,7 +1932,7 @@ img {
                                         <div class="comment-wrapper d-flex">
                                             <!-- Comment Meta -->
                                             <div class="comment-author">
-                                                <img src="img/blog-img/c-2.jpg" alt="">
+                                                <img src="images/blog-img/c-2.jpg" alt="">
                                             </div>
                                             <!-- Comment Content -->
                                             <div class="comment-content">
@@ -1951,7 +1951,7 @@ img {
                                 <div class="comment-wrapper d-flex">
                                     <!-- Comment Meta -->
                                     <div class="comment-author">
-                                        <img src="img/blog-img/c-3.jpg" alt="">
+                                        <img src="images/blog-img/c-3.jpg" alt="">
                                     </div>
                                     <!-- Comment Content -->
                                     <div class="comment-content">
@@ -2031,7 +2031,7 @@ img {
                             <div class="single-featured-property">
                                 <!-- Property Thumbnail -->
                                 <div class="property-thumb">
-                                    <img src="img/bg-img/feature1.jpg" alt="">
+                                    <img src="images/bg-img/feature1.jpg" alt="">
 
                                     <div class="tag">
                                         <span>For Sale</span>
@@ -2043,22 +2043,22 @@ img {
                                 <!-- Property Content -->
                                 <div class="property-content">
                                     <h5>Villa in Los Angeles</h5>
-                                    <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
+                                    <p class="location"><img src="images/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
                                     <p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.</p>
                                     <div class="property-meta-data d-flex align-items-end justify-content-between">
                                         <div class="new-tag">
-                                            <img src="img/icons/new.png" alt="">
+                                            <img src="images/icons/new.png" alt="">
                                         </div>
                                         <div class="bathroom">
-                                            <img src="img/icons/bathtub.png" alt="">
+                                            <img src="images/icons/bathtub.png" alt="">
                                             <span>2</span>
                                         </div>
                                         <div class="garage">
-                                            <img src="img/icons/garage.png" alt="">
+                                            <img src="images/icons/garage.png" alt="">
                                             <span>2</span>
                                         </div>
                                         <div class="space">
-                                            <img src="img/icons/space.png" alt="">
+                                            <img src="images/icons/space.png" alt="">
                                             <span>120 sq ft</span>
                                         </div>
                                     </div>
@@ -2069,7 +2069,7 @@ img {
                             <div class="single-featured-property">
                                 <!-- Property Thumbnail -->
                                 <div class="property-thumb">
-                                    <img src="img/bg-img/feature2.jpg" alt="">
+                                    <img src="images/bg-img/feature2.jpg" alt="">
 
                                     <div class="tag">
                                         <span>For Sale</span>
@@ -2081,22 +2081,22 @@ img {
                                 <!-- Property Content -->
                                 <div class="property-content">
                                     <h5>Town House in Los Angeles</h5>
-                                    <p class="location"><img src="img/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
+                                    <p class="location"><img src="images/icons/location.png" alt="">Upper Road 3411, no.34 CA</p>
                                     <p>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada.</p>
                                     <div class="property-meta-data d-flex align-items-end justify-content-between">
                                         <div class="new-tag">
-                                            <img src="img/icons/new.png" alt="">
+                                            <img src="images/icons/new.png" alt="">
                                         </div>
                                         <div class="bathroom">
-                                            <img src="img/icons/bathtub.png" alt="">
+                                            <img src="images/icons/bathtub.png" alt="">
                                             <span>2</span>
                                         </div>
                                         <div class="garage">
-                                            <img src="img/icons/garage.png" alt="">
+                                            <img src="images/icons/garage.png" alt="">
                                             <span>2</span>
                                         </div>
                                         <div class="space">
-                                            <img src="img/icons/space.png" alt="">
+                                            <img src="images/icons/space.png" alt="">
                                             <span>120 sq ft</span>
                                         </div>
                                     </div>
@@ -2112,7 +2112,7 @@ img {
     <!-- ##### Blog Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(images/bg-img/cta.jpg);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">
@@ -2126,9 +2126,9 @@ img {
                                 <h6>About Us</h6>
                             </div>
 
-                            <img src="img/bg-img/footer.jpg" alt="">
+                            <img src="images/bg-img/footer.jpg" alt="">
                             <div class="footer-logo my-4">
-                                <img src="img/core-img/logo.png" alt="">
+                                <img src="images/core-img/logo.png" alt="">
                             </div>
                             <p>Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat. Praesent malesuada.</p>
                         </div>
@@ -2151,9 +2151,9 @@ img {
                             </div>
                             <!-- Address -->
                             <div class="address">
-                                <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
-                                <h6><img src="img/icons/envelope.png" alt=""> office@template.com</h6>
-                                <h6><img src="img/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los Angeles, CA</h6>
+                                <h6><img src="images/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
+                                <h6><img src="images/icons/envelope.png" alt=""> office@template.com</h6>
+                                <h6><img src="images/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los Angeles, CA</h6>
                             </div>
                         </div>
                     </div>
@@ -2195,15 +2195,15 @@ img {
                             <div class="featured-properties-slides owl-carousel">
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                             </div>
                         </div>

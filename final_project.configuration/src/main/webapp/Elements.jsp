@@ -1726,7 +1726,7 @@ img {
   margin-bottom: 0;
   color: #7d7d7d; }
    </style>
-   </style>
+   
 
 </head>
 
@@ -1735,7 +1735,7 @@ img {
     <div id="preloader">
         <div class="south-load"></div>
     </div>
-
+    
     <!-- ##### Header Area Start ##### -->
     <header class="header-area">
 
@@ -1747,7 +1747,7 @@ img {
                 </div>
                 <div class="phone-number d-flex">
                     <div class="icon">
-                        <img src="img/icons/phone-call.png" alt="">
+                        <img src="images/icons/phone-call.png" alt="">
                     </div>
                     <div class="number">
                         <a href="tel:+45 677 8993000 223">+45 677 8993000 223</a>
@@ -1763,7 +1763,7 @@ img {
                 <nav class="classy-navbar justify-content-between" id="southNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="Index.jsp"><img src="images/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -1781,30 +1781,30 @@ img {
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Index.jsp">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="#">Listings</a>
+                                        <li><a href="Index.jsp">Home</a></li>
+                                        <li><a href="AboutUs.jsp">About Us</a></li>
+                                        <li><a href="Listing.jsp">Listings</a>
                                             <ul class="dropdown">
-                                                <li><a href="listings.html">Listings</a></li>
-                                                <li><a href="single-listings.html">Single Listings</a></li>
+                                                <li><a href="listing.jsp">Listings</a></li>
+                                                <li><a href="Singlelistings.jsp">Single Listings</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Blog</a>
                                             <ul class="dropdown">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Single Blog</a></li>
+                                                <li><a href="Blog.jsp">Blog</a></li>
+                                                <li><a href="SingleBlog.jsp">Single Blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="elements.html">Elements</a></li>
+                                        <li><a href="ContactUs.jsp">Contact</a></li>
+                                        <li><a href="Elements.jsp">Elements</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="listings.html">Properties</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="AboutUs.jsp">About Us</a></li>
+                                <li><a href="Listing.jsp">Properties</a></li>
+                                <li><a href="Blog.jsp">Blog</a></li>
                                 <li><a href="#">Mega Menu</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
@@ -1841,7 +1841,7 @@ img {
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="ContactUs.jsp">Contact</a></li>
                             </ul>
 
                             <!-- Search Form -->
@@ -2043,7 +2043,7 @@ img {
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact-area mb-100">
-                        <img src="img/icons/prize2.png" alt="">
+                        <img src="images/icons/prize2.png" alt="">
                         <h2><span class="counter">14</span></h2>
                         <h6>Years of Experience</h6>
                     </div>
@@ -2051,7 +2051,7 @@ img {
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact-area mb-100">
-                        <img src="img/icons/new2.png" alt="">
+                        <img src="images/icons/new2.png" alt="">
                         <h2>+<span class="counter">1000</span></h2>
                         <h6>Happy clients</h6>
                     </div>
@@ -2059,7 +2059,7 @@ img {
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact-area mb-100">
-                        <img src="img/icons/house2.png" alt="">
+                        <img src="images/icons/house2.png" alt="">
                         <h2><span class="counter">14</span>k</h2>
                         <h6>Followers on FB</h6>
                     </div>
@@ -2067,7 +2067,7 @@ img {
                 <!-- Single Cool Fact -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-fact-area mb-100">
-                        <img src="img/icons/house1.png" alt="">
+                        <img src="images/icons/house1.png" alt="">
                         <h2><span class="counter">723</span></h2>
                         <h6>Finished Projects</h6>
                     </div>
@@ -2086,7 +2086,7 @@ img {
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area mb-100">
                         <div class="service-content">
-                            <h5><img class="mr-15" src="img/icons/home3.png" alt=""> Perfect Home for me</h5>
+                            <h5><img class="mr-15" src="images/icons/home3.png" alt=""> Perfect Home for me</h5>
                             <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
                         </div>
                     </div>
@@ -2096,7 +2096,7 @@ img {
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area mb-100">
                         <div class="service-content">
-                            <h5><img class="mr-15" src="img/icons/rent.png" alt=""> Perfect Home for me</h5>
+                            <h5><img class="mr-15" src="images/icons/rent.png" alt=""> Perfect Home for me</h5>
                             <p>Dolor sit amet, consecte tuer elit, sed diam nonummy nibh euismod tincidunt ut ldolore magna.</p>
                         </div>
                     </div>
@@ -2106,7 +2106,7 @@ img {
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service-area mb-100">
                         <div class="service-content">
-                            <h5><img class="mr-15" src="img/icons/flat.png" alt=""> Perfect Home for me</h5>
+                            <h5><img class="mr-15" src="images/icons/flat.png" alt=""> Perfect Home for me</h5>
                             <p>Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
                         </div>
                     </div>
@@ -2117,7 +2117,7 @@ img {
     <!-- ##### Elements Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(images/bg-img/cta.jpg);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">
@@ -2131,9 +2131,9 @@ img {
                                 <h6>About Us</h6>
                             </div>
 
-                            <img src="img/bg-img/footer.jpg" alt="">
+                            <img src="images/bg-img/footer.jpg" alt="">
                             <div class="footer-logo my-4">
-                                <img src="img/core-img/logo.png" alt="">
+                                <img src="images/core-img/logo.png" alt="">
                             </div>
                             <p>Integer nec bibendum lacus. Suspen disse dictum enim sit amet libero males uada feugiat. Praesent malesuada.</p>
                         </div>
@@ -2156,9 +2156,9 @@ img {
                             </div>
                             <!-- Address -->
                             <div class="address">
-                                <h6><img src="img/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
-                                <h6><img src="img/icons/envelope.png" alt=""> office@template.com</h6>
-                                <h6><img src="img/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los Angeles, CA</h6>
+                                <h6><img src="images/icons/phone-call.png" alt=""> +45 677 8993000 223</h6>
+                                <h6><img src="images/icons/envelope.png" alt=""> office@template.com</h6>
+                                <h6><img src="images/icons/location.png" alt=""> Main Str. no 45-46, b3, 56832, Los Angeles, CA</h6>
                             </div>
                         </div>
                     </div>
@@ -2200,15 +2200,15 @@ img {
                             <div class="featured-properties-slides owl-carousel">
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="images/bg-img/fea-product.jpg" alt=""></a>
                                 </div>
                             </div>
                         </div>

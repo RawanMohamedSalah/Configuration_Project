@@ -1,72 +1,58 @@
 package core;
 
 public class Listing {
-	private int listing_id;
-    private int city_id;
-    private int category_id;
-    private int agent_id;
-    private int offer_id;
-    private int property_type_id;
-    private int documents_id;
+	private int listingId;
+    private int cityId;
+    private int categoryId;
+    private int agentId;
     private int bedrooms;
     private int bathrooms;
-    private double square_footage;
+    private double squareFootage;
     private double price;
 
-    public int getListing_id() {
-        return listing_id;
+    // Constructor
+    public Listing(int listingId, int cityId, int categoryId, int agentId, int bedrooms, int bathrooms, double squareFootage, double price) {
+        this.listingId = listingId;
+        this.cityId = cityId;
+        this.categoryId = categoryId;
+        this.agentId = agentId;
+        this.bedrooms = bedrooms;
+        this.bathrooms = bathrooms;
+        this.squareFootage = squareFootage;
+        this.price = price;
     }
 
-    public void setListing_id(int listing_id) {
-        this.listing_id = listing_id;
+    // Getters and Setters
+    public int getListingId() {
+        return listingId;
     }
 
-    public int getCity_id() {
-        return city_id;
+    public void setListingId(int listingId) {
+        this.listingId = listingId;
     }
 
-    public void setCity_id(int city_id) {
-        this.city_id = city_id;
+    public int getCityId() {
+        return cityId;
     }
 
-    public int getCategory_id() {
-        return category_id;
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
 
-    public void setCategory_id(int category_id) {
-        this.category_id = category_id;
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public int getAgent_id() {
-        return agent_id;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
-    public void setAgent_id(int agent_id) {
-        this.agent_id = agent_id;
+    public int getAgentId() {
+        return agentId;
     }
 
-    public int getOffer_id() {
-        return offer_id;
-    }
-
-    public void setOffer_id(int offer_id) {
-        this.offer_id = offer_id;
-    }
-
-    public int getProperty_type_id() {
-        return property_type_id;
-    }
-
-    public void setProperty_type_id(int property_type_id) {
-        this.property_type_id = property_type_id;
-    }
-
-    public int getDocuments_id() {
-        return documents_id;
-    }
-
-    public void setDocuments_id(int documents_id) {
-        this.documents_id = documents_id;
+    public void setAgentId(int agentId) {
+        this.agentId = agentId;
     }
 
     public int getBedrooms() {
@@ -85,12 +71,12 @@ public class Listing {
         this.bathrooms = bathrooms;
     }
 
-    public double getSquare_footage() {
-        return square_footage;
+    public double getSquareFootage() {
+        return squareFootage;
     }
 
-    public void setSquare_footage(double square_footage) {
-        this.square_footage = square_footage;
+    public void setSquareFootage(double squareFootage) {
+        this.squareFootage = squareFootage;
     }
 
     public double getPrice() {

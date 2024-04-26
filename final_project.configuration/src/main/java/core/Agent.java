@@ -1,33 +1,42 @@
 package core;
 
 public class Agent {
-	private int agent_id;
-    private String agent_name;
-    private String contact_information;
+	private int agentId;
+    private String agentName;
+    private String contactInformation;
     private String email;
 
-    public int getAgent_id() {
-        return agent_id;
+    // Constructor
+    public Agent(int agentId, String agentName, String contactInformation, String email) {
+        this.agentId = agentId;
+        this.agentName = agentName;
+        this.contactInformation = contactInformation;
+        this.email = email;
     }
 
-    public void setAgent_id(int agent_id) {
-        this.agent_id = agent_id;
+    // Getters and Setters
+    public int getAgentId() {
+        return agentId;
     }
 
-    public String getAgent_name() {
-        return agent_name;
+    public void setAgentId(int agentId) {
+        this.agentId = agentId;
     }
 
-    public void setAgent_name(String agent_name) {
-        this.agent_name = agent_name;
+    public String getAgentName() {
+        return agentName;
     }
 
-    public String getContact_information() {
-        return contact_information;
+    public void setAgentName(String agentName) {
+        this.agentName = agentName;
     }
 
-    public void setContact_information(String contact_information) {
-        this.contact_information = contact_information;
+    public String getContactInformation() {
+        return contactInformation;
+    }
+
+    public void setContactInformation(String contactInformation) {
+        this.contactInformation = contactInformation;
     }
 
     public String getEmail() {

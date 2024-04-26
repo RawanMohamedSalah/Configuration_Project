@@ -1733,6 +1733,7 @@ img {
  
 </head>
 
+
 <body>
  
     <!-- Preloader -->
@@ -1767,7 +1768,7 @@ img {
                 <nav class="classy-navbar justify-content-between" id="southNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="index.html"><img src="images/img/bg-img\about.jpg" alt=""></a>
+                    <a class="nav-brand" href="Index.jsp"><img src="images/img/bg-img\about.jpg" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -1785,30 +1786,30 @@ img {
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Index.jsp">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul class="dropdown">
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="Index.jsp">Home</a></li>
+                                        <li><a href="AboutUs.jsp">About Us</a></li>
                                         <li><a href="#">Listings</a>
                                             <ul class="dropdown">
-                                                <li><a href="listings.html">Listings</a></li>
-                                                <li><a href="single-listings.html">Single Listings</a></li>
+                                                <li><a href="Listing.jsp">Listings</a></li>
+                                                <li><a href="SingleListings.jsp">Single Listings</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">Blog</a>
                                             <ul class="dropdown">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li><a href="single-blog.html">Single Blog</a></li>
+                                                <li><a href="Blog.jsp">Blog</a></li>
+                                                <li><a href="SingleBlog.jsp">Single Blog</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="elements.html">Elements</a></li>
+                                        <li><a href="ContactUs.jsp">Contact</a></li>
+                                        <li><a href="Elements.jsp">Elements</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="listings.html">Properties</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="AboutUs.jsp">About Us</a></li>
+                                <li><a href="Listing.jsp">Properties</a></li>
+                                <li><a href="Blog.jsp">Blog</a></li>
                                 <li><a href="#">Mega Menu</a>
                                     <div class="megamenu">
                                         <ul class="single-mega cn-col-4">
@@ -1845,7 +1846,7 @@ img {
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="ContactUs.jsp">Contact</a></li>
                             </ul>
 
                             <!-- Search Form -->
@@ -2145,32 +2146,32 @@ img {
                             </div>
                             <!-- Property Content -->
                            <div class="property-content">
-    <h5>Luxury Villa in Los Angeles</h5>
-    <p class="location"><img src="images/icons/location.png" alt="">Upper Road 3411, no.34, California</p>
-    <p>This stunning villa offers breathtaking views of the city skyline and is located in one of the most exclusive neighborhoods in Los Angeles. The property features 5 bedrooms, 6 bathrooms, and a spacious living area with floor-to-ceiling windows.</p>
-    <div class="property-meta-data d-flex align-items-end justify-content-between">
-        <div class="new-tag">
-            <img src="images/icons/new.png" alt="">
-            <span>New Listing</span>
-        </div>
-        <div class="bathroom">
-            <img src="images/icons/bathtub.png" alt="">
-            <span>6</span>
-        </div>
-        <div class="garage">
-            <img src="images/icons/garage.png" alt="">
-            <span>3</span>
-        </div>
-        <div class="space">
-            <img src="images/icons/space.png" alt="">
-            <span>5,000 sq ft</span>
-        </div>
-        <div class="price">
-            <img src="images/icons/price.png" alt="">
-            <span>$5,000,000</span>
-        </div>
-    </div>
-</div>
+			    <h5>Luxury Villa in Los Angeles</h5>
+			    <p class="location"><img src="images/icons/location.png" alt="">Upper Road 3411, no.34, California</p>
+			    <p>This stunning villa offers breathtaking views of the city skyline and is located in one of the most exclusive neighborhoods in Los Angeles. The property features 5 bedrooms, 6 bathrooms, and a spacious living area with floor-to-ceiling windows.</p>
+			    <div class="property-meta-data d-flex align-items-end justify-content-between">
+			        <div class="new-tag">
+			            <img src="images/icons/new.png" alt="">
+			            <span>New Listing</span>
+			        </div>
+			        <div class="bathroom">
+			            <img src="images/icons/bathtub.png" alt="">
+			            <span>6</span>
+			        </div>
+			        <div class="garage">
+			            <img src="images/icons/garage.png" alt="">
+			            <span>3</span>
+			        </div>
+			        <div class="space">
+			            <img src="images/icons/space.png" alt="">
+			            <span>5,000 sq ft</span>
+			        </div>
+			        <div class="price">
+			            <img src="images/icons/price.png" alt="">
+			            <span>$5,000,000</span>
+			        </div>
+			    </div>
+			</div>
 
                         <!-- Single Slide -->
                         <div class="single-featured-property">
@@ -2391,7 +2392,7 @@ img {
     <!-- ##### Meet The Team Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(img/bg-img/cta.jpg);">
+    <footer class="footer-area section-padding-100-0 bg-img gradient-background-overlay" style="background-image: url(images/bg-img/cta.jpg);">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
             <div class="container">

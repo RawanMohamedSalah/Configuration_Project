@@ -1,40 +1,44 @@
 package core;
 
-public class PropertyFeatures {
+public class PropertyFeatures implements Cloneable{
 	private int feature_id;
     private int listing_id;
     private String feature_name;
     private String feature_value;
 
-    public int getFeature_id() {
-        return feature_id;
+    // Constructor
+    public PropertyFeatures(int feature_id, int listing_id, String feature_name, String feature_value) {
+        this.feature_id = feature_id;
+        this.listing_id = listing_id;
+        this.feature_name = feature_name;
+        this.feature_value = feature_value;
     }
 
-    public void setFeature_id(int feature_id) {
-        this.feature_id = feature_id;
+    // Clone method to create a copy of the object
+    @Override
+    public PropertyFeatures clone() {
+        try {
+            return (PropertyFeatures) super.clone();
+        } catch (CloneNotSupportedException e) {
+            // This should never happen since Cloneable is implemented
+            throw new AssertionError();
+        }
+    }
+
+    // Getter methods
+    public int getFeature_id() {
+        return feature_id;
     }
 
     public int getListing_id() {
         return listing_id;
     }
 
-    public void setListing_id(int listing_id) {
-        this.listing_id = listing_id;
-    }
-
     public String getFeature_name() {
         return feature_name;
     }
 
-    public void setFeature_name(String feature_name) {
-        this.feature_name = feature_name;
-    }
-
     public String getFeature_value() {
         return feature_value;
-    }
-
-    public void setFeature_value(String feature_value) {
-        this.feature_value = feature_value;
     }
 }

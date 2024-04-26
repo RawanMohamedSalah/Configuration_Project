@@ -1,22 +1,13 @@
 package core;
 
 public class Offer {
-	private int offer_id;
-    private String offer_description;
+	private OfferType offerType;
 
-    public int getOffer_id() {
-        return offer_id;
+    public Offer(OfferType offerType) {
+        this.offerType = offerType;
     }
 
-    public void setOffer_id(int offer_id) {
-        this.offer_id = offer_id;
-    }
-
-    public String getOffer_description() {
-        return offer_description;
-    }
-
-    public void setOffer_description(String offer_description) {
-        this.offer_description = offer_description;
+    public String applyOffer(double originalPrice) {
+        return offerType.applyOffer(originalPrice);
     }
 }

@@ -1,22 +1,30 @@
+
 package core;
 
 public class Category {
-	private int category_id;
-    private String category_name;
+	private int categoryId;
+    private String categoryName;
 
-    public int getCategory_id() {
-        return category_id;
+    // Constructor
+    public Category(int categoryId, String categoryName) {
+        this.categoryId = categoryId;
+        this.categoryName = categoryName;
     }
 
-    public void setCategory_id(int category_id) {
-        this.category_id = category_id;
+    // Getters and Setters
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public String getCategory_name() {
-        return category_name;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
-    public void setCategory_name(String category_name) {
-        this.category_name = category_name;
+    public String getCategoryName() {
+        return categoryName;
+    }
+
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
     }
 }

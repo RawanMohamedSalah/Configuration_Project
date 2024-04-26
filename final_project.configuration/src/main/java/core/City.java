@@ -1,22 +1,29 @@
 package core;
 
 public class City {
-	private int city_id;
-    private String city_name;
+	private int cityId;
+    private String cityName;
 
-    public int getCity_id() {
-        return city_id;
+    // Constructor
+    public City(int cityId, String cityName) {
+        this.cityId = cityId;
+        this.cityName = cityName;
     }
 
-    public void setCity_id(int city_id) {
-        this.city_id = city_id;
+    // Getters and Setters
+    public int getCityId() {
+        return cityId;
     }
 
-    public String getCity_name() {
-        return city_name;
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
     }
 
-    public void setCity_name(String city_name) {
-        this.city_name = city_name;
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
     }
 }
