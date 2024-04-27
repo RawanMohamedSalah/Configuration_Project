@@ -1766,7 +1766,7 @@ img {
                 <nav class="classy-navbar justify-content-between" id="southNav">
 
                     <!-- Logo -->
-                    <a class="nav-brand" href="Index.jsp"><img src="images/core-img/logo.png" alt=""></a>
+                    <a class="nav-brand" href="Index.jsp"><img src="images/core-img/Logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">

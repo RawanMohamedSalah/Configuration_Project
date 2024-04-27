@@ -1804,7 +1804,7 @@ img {
                                     </ul>
                                 </li>
                                 <li><a href="AboutUs.jsp">About Us</a></li>
-                                <li><a href="Listings.jsp">Properties</a></li>
+                                <li><a href="Listing.jsp">Properties</a></li>
                                 <li><a href="Blog.jsp">Blog</a></li>
                                 <li><a href="#">Mega Menu</a>
                                     <div class="megamenu">
