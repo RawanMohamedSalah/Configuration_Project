@@ -1,5 +1,6 @@
 package core;
 
+
 public class Agent {
 	private int agentId;
     private String agentName;
